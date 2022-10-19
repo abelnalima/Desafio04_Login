@@ -5,9 +5,6 @@ main {
 
 .main__content {
     display: flex;
-    
-    width: 100%;
-    height: 100%;
 
     background: var(--white);
 }
@@ -33,63 +30,46 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
 }
 
 .main__content_login_form {
     width: 370px;
 
     padding-top: 213px;
-}
-
-.main__content_login_form span {
-    font-family: 'Merriweather-Regular', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
 
     color: var(--gray);
 }
 
-.login_conta {
+.lgn-form-header span {
+    font-family: 'Merriweather-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.lgn-form-header p {
     padding-top: 7px;
 
     font-family: 'Merriweather-Bold', sans-serif;
     font-size: 26px;
     line-height: 33px;
-
-    color: var(--gray);
 }
 
-.login_form_email {
+.lgn-form-inputs {
     padding-top: 39px;
+}
 
+.lgn-form-inputs p {
     font-family: 'Lato-Regular', sans-serif;
     font-size: 16px;
     line-height: 19px;
-
-    color: var(--gray);
 }
 
-.login_form_senha {
-    padding-top: 11px;
-
-    font-family: 'Lato-Regular', sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: var(--gray);
-}
-
-#email {
+.lgn-form-inputs input {
     width: 350px;
     height: 50px;
 
     margin-top: 11px;
+    margin-bottom: 11px;
 
     border: 1px solid #E8E8E8;
     border-radius: 5px;
@@ -97,38 +77,25 @@ form {
     font-family: 'Lato-Regular', sans-serif;
     font-size: 14px;
     line-height: 17px;
-    color: var(--gray);
 
     padding-left: 20px;
 }
 
-#senha {
-    width: 350px;
-    height: 50px;
-
-    margin-top: 11px;
-
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
-
-    font-family: 'Lato-Regular', sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--gray);
-
-    padding-left: 20px;
-}
-
-.login_info {
+.lgn-form-info-chk {
     display: flex;
 
-    padding-top: 28px;
+    padding-top: 17px;
+
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
 }
 
-.btn-chk {
-    margin-top: 1.5px;
+.lgn-form-info-chk .btn-chk {
     width: 15px;
     height: 15px;
+    
+    margin-top: 1.5px;
 
     border: 1px solid #E8E8E8;
     border-radius: 50%;
@@ -136,30 +103,23 @@ form {
     background: var(--white-200);
 }
 
-.login_form_lembrar {
+.lgn-form-info-chk .lgn-form-text {
     padding-left: 11px;
-
-    font-family: 'Lato-Regular', sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-
-    color: var(--gray);
 }
 
-.login_form_esquecer {
+.lgn-form-info-chk .lgn-form-link {
     padding-left: 94px;
     
-    font-family: 'Lato-Regular', sans-serif;
-    font-size: 14px;
-    line-height: 17px;
     text-decoration: none;
 
     color: var(--purple-light);
 }
 
-#btn_entrar {
+.lgn-form-btn {
     margin-top: 26px;
+}
 
+.lgn-form-btn input {
     width: 347px;
     height: 50px;
 
@@ -175,7 +135,7 @@ form {
     color: var(--white);
 }
 
-.btn_login {
+.lgn-form-btn .btn_login {
     margin-top: 15px;
 
     width: 347px;
@@ -187,7 +147,7 @@ form {
     background: transparent;
 }
 
-.btn_login_google {
+.lgn-form-btn .btn_login_google {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,18 +155,13 @@ form {
     width: 347px;
     height: 50px;
 
-    border: none;
     border-radius: 5px;
     background: var(--gray);
 }
 
-.btn_login_google img {
-    width: 20px;
-    height: 20px;
-}
-
-.btn_login_google span {
+.lgn-form-btn .btn_login_google span {
     padding-left: 11px;
+
     font-family: 'Lato-Bold', sans-serif;
     font-size: 16px;
     line-height: 19px;
@@ -214,18 +169,20 @@ form {
     color: var(--white);
 }
 
-.login_nao_conta {
+.lgn-form-footer {
     padding-top: 162px;
-    padding-left: 50px;
+    padding-bottom: 50px;
 
     font-family: 'Lato-Regular', sans-serif;
     font-size: 16px;
     line-height: 19px;
-
-    color: var(--gray);
 }
 
-.login_nao_conta a {
+.lgn-form-footer p {
+    padding-left: 55px;
+}
+
+.lgn-form-footer a {
     padding-left: 12px;
 
     text-decoration: none;

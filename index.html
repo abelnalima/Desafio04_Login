@@ -121,26 +121,38 @@
                 <div class="main__content_login">
                     <div class="main__content_login_form">
                         <form>
-                            <span>Bem vindo de volta</span>
-                            <p class="login_conta">Faça login na sua conta</p>
-                            <p class="login_form_email"><label for="email">E-mail</label></p>
-                            <input type="text" name="email" id="email" placeholder="codelandia@gmail.com">
-                            <p class="login_form_senha"><label for="senha">Senha</label></p>
-                            <input type="password" name="senha" id="senha" placeholder="*********">
-                            <div class="login_info">
-                                <button class="btn-chk"></button>
-                                <p class="login_form_lembrar">Lembre de mim</p>
-                                <a href="" class="login_form_esquecer">Esqueceu sua senha?</a>
+                            <div class="lgn-form-header">
+                                <span>Bem vindo de volta</span>
+                                <p>Faça login na sua conta</p>
                             </div>
-                            <input type="submit" value="Entrar" id="btn_entrar">
-                            <button class="btn_login">
-                                <div class="btn_login_google">
-                                    <img src="./image/icon_google.svg" alt="logo google">
-                                    <span>Ou faça login com o Google</span>
-                                </div>
-                            </button>
-                            <p class="login_nao_conta">Não tem uma conta?<a class="login_cadastrar" href="">Cadastre-se</a></p>
+
+                            <div class="lgn-form-inputs">
+                                <p><label for="email">E-mail</label></p>
+                                <input type="text" name="email" id="email" placeholder="codelandia@gmail.com">
+                                <p><label for="senha">Senha</label></p>
+                                <input type="password" name="senha" id="senha" placeholder="*********">
+                            </div>
+                            
+                            <div class="lgn-form-info-chk">
+                                <button class="btn-chk"></button>
+                                <p class="lgn-form-text">Lembre de mim</p>
+                                <a href="" class="lgn-form-link">Esqueceu sua senha?</a>
+                            </div>
+
+                            <div class="lgn-form-btn">
+                                <input type="submit" value="Entrar" id="btn_entrar">
+                                <button class="btn_login">
+                                    <div class="btn_login_google">
+                                        <img src="./image/icon_google.svg" alt="icon logo google">
+                                        <span>Ou faça login com o Google</span>
+                                    </div>
+                                </button>
+                            </div>
                         </form>
+
+                        <div class="lgn-form-footer">
+                            <p>Não tem uma conta?<a href="">Cadastre-se</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
