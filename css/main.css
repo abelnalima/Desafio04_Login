@@ -241,3 +241,67 @@ main {
         font-size: 15px;
     }
 }
+
+@media (max-width: 768px) {
+    .main__content_wallpaper svg {
+        width: 320px;
+        height: 281px;
+    }
+    
+    .main__content_login_form {
+        width: 330px;
+    }
+    
+    .lgn-form-header span {
+        font-size: 15px;
+    }
+    
+    .lgn-form-header p {
+        font-size: 25px;
+    }
+    
+    .lgn-form-inputs p {
+        font-size: 15px;
+    }
+    
+    .lgn-form-inputs input {
+        width: 320px;
+        height: 40px;
+
+        font-size: 13px;
+    }
+    
+    .lgn-form-info-chk {
+        font-size: 13px;
+    }
+    
+    .lgn-form-info-chk .btn-chk {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .lgn-form-btn input {
+        width: 320px;
+        height: 40px;
+
+        font-size: 15px;
+    }
+    
+    .lgn-form-btn .btn_login {
+        width: 320px;
+        height: 40px;
+    }
+    
+    .lgn-form-btn .btn_login_google {
+        width: 320px;
+        height: 40px;
+    }
+    
+    .lgn-form-btn .btn_login_google span {
+        font-size: 15px;
+    }
+    
+    .lgn-form-footer {
+        font-size: 15px;
+    }
+}
