@@ -111,7 +111,6 @@ main {
     padding-left: 94px;
     
     text-decoration: none;
-
     color: var(--purple-light);
 }
 
@@ -186,6 +185,59 @@ main {
     padding-left: 12px;
 
     text-decoration: none;
-
     color: var(--purple-light);
+}
+
+@media (max-width: 1024px) {
+    .main__content_login_form {
+        margin-left: 12px;
+    }
+    .main__content_wallpaper svg {
+        width: 370px;
+        height: 301px;
+    }
+
+    .lgn-form-header span {
+    font-size: 15px;
+    }
+
+    .lgn-form-header p {
+        font-size: 25px;
+    }
+
+    .lgn-form-inputs p {
+        font-size: 15px;
+    }
+
+    .lgn-form-inputs input {
+        height: 40px;
+
+        font-size: 13px;
+    }
+
+    .lgn-form-info-chk {
+        font-size: 13px;
+    }
+
+    .lgn-form-btn input {
+        height: 40px;
+
+        font-size: 15px;
+    }
+
+    .lgn-form-btn .btn_login {
+        height: 40px;
+    }
+
+    .lgn-form-btn .btn_login_google {
+        height: 40px;
+    }
+
+    .lgn-form-btn .btn_login_google span {
+        font-size: 15px;
+    }
+
+    .lgn-form-footer {
+        font-size: 15px;
+    }
 }
