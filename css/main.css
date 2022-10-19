@@ -44,6 +44,8 @@ main {
     font-family: 'Merriweather-Regular', sans-serif;
     font-size: 16px;
     line-height: 20px;
+
+    color: inherit;
 }
 
 .lgn-form-header p {
@@ -52,6 +54,8 @@ main {
     font-family: 'Merriweather-Bold', sans-serif;
     font-size: 26px;
     line-height: 33px;
+
+    color: inherit;
 }
 
 .lgn-form-inputs {
@@ -62,6 +66,8 @@ main {
     font-family: 'Lato-Regular', sans-serif;
     font-size: 16px;
     line-height: 19px;
+
+    color: inherit;
 }
 
 .lgn-form-inputs input {
@@ -74,11 +80,13 @@ main {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
 
+    padding-left: 20px;
+
     font-family: 'Lato-Regular', sans-serif;
     font-size: 14px;
     line-height: 17px;
 
-    padding-left: 20px;
+    color: inherit;
 }
 
 .lgn-form-info-chk {
@@ -105,6 +113,8 @@ main {
 
 .lgn-form-info-chk .lgn-form-text {
     padding-left: 11px;
+
+    color: inherit;
 }
 
 .lgn-form-info-chk .lgn-form-link {
@@ -179,6 +189,8 @@ main {
 
 .lgn-form-footer p {
     padding-left: 55px;
+
+    color: inherit;
 }
 
 .lgn-form-footer a {
@@ -279,6 +291,10 @@ main {
         width: 14px;
         height: 14px;
     }
+
+    .lgn-form-info-chk .lgn-form-link {
+        padding-left: 88px;
+    }
     
     .lgn-form-btn input {
         width: 320px;
@@ -303,5 +319,255 @@ main {
     
     .lgn-form-footer {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__content_wallpaper {
+        width: 0%;
+    }
+    
+    .main__content_login_form {
+        width: 370px;
+    
+        padding-top: 71px;
+        margin-left: 22px;
+    
+        color: var(--gray);
+    }
+    
+    .lgn-form-header span {
+        font-family: 'Merriweather-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-header p {
+        padding-top: 7px;
+    
+        font-family: 'Merriweather-Bold', sans-serif;
+        font-size: 26px;
+        line-height: 33px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-inputs {
+        padding-top: 39px;
+    }
+    
+    .lgn-form-inputs p {
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-inputs input {
+        width: 350px;
+        height: 50px;
+    
+        margin-top: 11px;
+        margin-bottom: 11px;
+    
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+    
+        padding-left: 20px;
+    
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-info-chk {
+        display: flex;
+    
+        padding-top: 17px;
+    
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .lgn-form-info-chk .btn-chk {
+        width: 15px;
+        height: 15px;
+        
+        margin-top: 1.5px;
+    
+        border: 1px solid #E8E8E8;
+        border-radius: 50%;
+    
+        background: var(--white-200);
+    }
+    
+    .lgn-form-info-chk .lgn-form-text {
+        padding-left: 11px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-info-chk .lgn-form-link {
+        padding-left: 94px;
+        
+        text-decoration: none;
+        color: var(--purple-light);
+    }
+    
+    .lgn-form-btn {
+        margin-top: 26px;
+    }
+    
+    .lgn-form-btn input {
+        width: 347px;
+        height: 50px;
+    
+        border: none;
+        border-radius: 5px;
+    
+        background: var(--green-light);
+    
+        font-family: 'Lato-Bold', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: var(--white);
+    }
+    
+    .lgn-form-btn .btn_login {
+        margin-top: 15px;
+    
+        width: 347px;
+        height: 50px;
+    
+        border: none;
+        border-radius: 5px;
+    
+        background: transparent;
+    }
+    
+    .lgn-form-btn .btn_login_google {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 347px;
+        height: 50px;
+    
+        border-radius: 5px;
+        background: var(--gray);
+    }
+    
+    .lgn-form-btn .btn_login_google span {
+        padding-left: 11px;
+    
+        font-family: 'Lato-Bold', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: var(--white);
+    }
+    
+    .lgn-form-footer {
+        padding-top: 138px;
+        padding-bottom: 52px;
+    
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .lgn-form-footer p {
+        padding-left: 55px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-footer a {
+        padding-left: 12px;
+    
+        text-decoration: none;
+        color: var(--purple-light);
+    }
+}
+
+@media (max-width: 320px) {
+    .main__content_login_form {
+        width: 310px;
+
+        margin: 0;
+        padding-left: 15px;
+    }
+    
+    .lgn-form-header p {
+        font-size: 24px;
+        line-height: 33px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-inputs {
+        padding-top: 39px;
+    }
+    
+    .lgn-form-inputs p {
+        font-family: 'Lato-Regular', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: inherit;
+    }
+    
+    .lgn-form-inputs input {
+        width: 280px;
+        height: 40px;
+    }
+    
+    .lgn-form-info-chk {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .lgn-form-info-chk .lgn-form-link {
+        padding-left: 32px;
+    }
+    
+    .lgn-form-btn input {
+        width: 280px;
+        height: 40px;
+    
+        font-size: 15px;
+    }
+    
+    .lgn-form-btn .btn_login {
+        width: 280px;
+        height: 40px;
+    }
+    
+    .lgn-form-btn .btn_login_google {
+        width: 280px;
+        height: 40px;
+    }
+    
+    .lgn-form-btn .btn_login_google span {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .lgn-form-footer {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    
+    .lgn-form-footer p {
+        padding-left: 30px;
+    
+        color: inherit;
     }
 }
